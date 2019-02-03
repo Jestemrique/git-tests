@@ -24,11 +24,22 @@ git remote add origin https://github.com/Jestemrique/git-tests.git
 
 Push a repo remoto
 ******************
-
 $ git push -u origin master
 
+Establecer cache para credenciales en linux:
+********************************************
+git config --global credential.helper 'cache --timeout=10000000'
 
+Establecer cache para credenciales en Mac:
+********************************************
+- Ver si Credential helper está instalado. Para ello:
+$ git credential-osxkeychain
+- Mirar si obtenemos lo siguiente:
+usage: git credential-osxkeychain <get|store|erase>
 
+- Si no obtenemos este resultado, tenemos que instalar una versión mas reciente de git.
+- Una vez que tenemos credential helper instalado, podemos ejecutar:
+$ git config --global credential.helper osxkeychain
 
 
 Todo:
