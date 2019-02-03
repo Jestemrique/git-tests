@@ -16,6 +16,11 @@ Hacer commit
 *************
 $ commit -m "MEnsaje"
 
+Establecer un repositorio remoto en github
+******************************************
+$ git remote add <remote_name> >remote-repo_url>
+Por ejemplo:
+git remote add origin https://github.com/Jestemrique/git-tests.git
 
 
 Todo:
