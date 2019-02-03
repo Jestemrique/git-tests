@@ -1,0 +1,24 @@
+Git
+****
+
+
+Crear un repositorio nuevo
+**************************
+- Cambiar al directorio
+$ git init
+
+Añadir archivos a git
+*********************
+$ git add .
+
+
+Hacer commit
+*************
+$ commit -m "MEnsaje"
+
+
+
+Todo:
+- Cómo eliminar archivos de git
+
+
