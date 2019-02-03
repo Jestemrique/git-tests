@@ -22,6 +22,14 @@ $ git remote add <remote_name> >remote-repo_url>
 Por ejemplo:
 git remote add origin https://github.com/Jestemrique/git-tests.git
 
+Push a repo remoto
+******************
+
+$ git push -u origin master
+
+
+
+
 
 Todo:
 - Cómo eliminar archivos de git
