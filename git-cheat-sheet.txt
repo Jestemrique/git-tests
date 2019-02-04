@@ -35,6 +35,6 @@ Git
 
 Todo:
 - Cómo eliminar archivos de git
-- Configurar git para mac os
+Acabo con este fichero por ahora
 
 
