@@ -1,45 +1,36 @@
 Git
 ****
 
+[+] Crear un repositorio nuevo
+    - Cambiar al directorio
+    $ git init
 
-Crear un repositorio nuevo
-**************************
-- Cambiar al directorio
-$ git init
+[+] Añadir archivos a git
+    $ git add .
 
-Añadir archivos a git
-*********************
-$ git add .
+[+] Hacer commit
+    $ commit -m "MEnsaje"
 
+[+] Establecer un repositorio remoto en github
+    $ git remote add <remote_name> >remote-repo_url>
+    Por ejemplo:
+    git remote add origin https://github.com/Jestemrique/git-tests.git
 
-Hacer commit
-*************
-$ commit -m "MEnsaje"
+[+] Push a repo remoto
+    $ git push -u origin master
 
-Establecer un repositorio remoto en github
-******************************************
-$ git remote add <remote_name> >remote-repo_url>
-Por ejemplo:
-git remote add origin https://github.com/Jestemrique/git-tests.git
+[+] Establecer cache para credenciales en linux:
+    git config --global credential.helper 'cache --timeout=10000000'
 
-Push a repo remoto
-******************
-$ git push -u origin master
+[+] Establecer cache para credenciales en Mac:
+    - Ver si Credential helper está instalado. Para ello:
+    $ git credential-osxkeychain
+    - Mirar si obtenemos lo siguiente:
+    usage: git credential-osxkeychain <get|store|erase>
 
-Establecer cache para credenciales en linux:
-********************************************
-git config --global credential.helper 'cache --timeout=10000000'
-
-Establecer cache para credenciales en Mac:
-********************************************
-- Ver si Credential helper está instalado. Para ello:
-$ git credential-osxkeychain
-- Mirar si obtenemos lo siguiente:
-usage: git credential-osxkeychain <get|store|erase>
-
-- Si no obtenemos este resultado, tenemos que instalar una versión mas reciente de git.
-- Una vez que tenemos credential helper instalado, podemos ejecutar:
-$ git config --global credential.helper osxkeychain
+    - Si no obtenemos este resultado, tenemos que instalar una versión mas reciente de git.
+    - Una vez que tenemos credential helper instalado, podemos ejecutar:
+    $ git config --global credential.helper osxkeychain
 
 
 Todo:
