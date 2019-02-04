@@ -44,5 +44,6 @@ $ git config --global credential.helper osxkeychain
 
 Todo:
 - Cómo eliminar archivos de git
+- Configurar git para mac os
 
 
